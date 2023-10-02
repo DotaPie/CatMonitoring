@@ -1,8 +1,8 @@
 # CatMonitoring  
-This project records 2 USB web cams (can be 1-4) on motion and then upload them to your google drive and delete them afterwards. Will work on most of the linux platforms.   
-Recording is handled by linux motion library.  
-Video uploading is handled by python script (using google API).  
-At this point, linux host computer must have GUI enabled with any rowser installed, so script can redirect to browser for authentication.  
+- This project records 2 USB web cams (can be 1-4) on motion and then upload them to your google drive and delete them afterwards. Will work on most of the linux platforms.   
+- Recording is handled by linux motion library.  
+- Video uploading is handled by python script (using google API).  
+- At this point, linux host computer must have GUI enabled with any rowser installed, so script can redirect to browser for authentication.  
 
 # Installation guide  
 ## Allow google API on your account and generate credentials.json:  
