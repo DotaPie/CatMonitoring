@@ -11,8 +11,8 @@ At this point, linux host computer must have GUI enabled with any rowser install
 ## Python script install:  
 	- CMD: sudo apt update && sudo apt upgrade -y  
 	- CMD: mkdir /home/$USER/CatMonitoring  
-	- copy all provided files there + also obtained credentials.json from google API  
-	- check paths in the python script in the top of the script  
+	- copy all provided files there from src folder + obtained credentials.json from google API  
+	- check paths in the python script in the top of the script, match your user and folder if different
 	- CMD: mkdir /home/$USER/CatMonitoring/CatMonitoringEnv  
 	- CMD: python3 -m venv /home/$USER/CatMonitoring/CatMonitoringEnv   
 	- CMD: python3 -m pip install --upgrade pip  
@@ -30,10 +30,10 @@ At this point, linux host computer must have GUI enabled with any rowser install
 	- CMD: sudo motion  
   
 ## Run python script (in separate console window):  
-	- CMD: /home/$USER/CatMonitoring/CatMonitoringEnv/bin  
+	- CMD: cd /home/$USER/CatMonitoring/CatMonitoringEnv/bin  
 	- CMD: source ./activate  
 	- CMD: python3 /home/$USER/CatMonitoring/VideosToDriveSync.py  
-	- authorize via web browser to your google account (needed only once)  
+	- authorize via web browser to your google account (needed only once to generate token.json)  
 	
 
 
